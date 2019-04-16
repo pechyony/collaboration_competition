@@ -1,4 +1,4 @@
-[image1]: ./images/trained_agents.gif "trained agents" 
+[image1]: ./images/agents.gif "agents" 
 
 # Collaboration and Competition
 

@@ -61,7 +61,7 @@ If number of episode < PURE_EXPLORATION
     
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sample a batch of K experiences (S<sub>j</sub><sup>1</sup>,A<sub>j</sub><sup>1</sup>,R<sub>j</sub><sup>1</sup>,S'<sub>j</sub><sup>1</sup>,done<sub>j</sub><sup>1</sup>,S<sub>j</sub><sup>2</sup>,A<sub>j</sub><sup>2</sup>,R<sub>j</sub><sup>2</sup>,S'<sub>j</sub><sup>2</sup>,done<sub>j</sub><sup>2</sup>), j=1 ... K, from the replay buffer    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For i = 1,2:   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For i = 1,2:   
     
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Get next-state actions from actor target network   
